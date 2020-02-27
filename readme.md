@@ -1,0 +1,103 @@
+# Final Project JCDS 07
+
+# Employee Attrition Tendency Detection
+
+#### By: Khumaeni
+
+## Background
+
+<hr>
+Employee Attrition lebih dikenal dengan Turn over rate
+<br><br>
+Karyawan berhenti dari perusahaan bukan hanya dapat mengganggu proses bisnis perusahaan, tetapi juga membuat perusahaan mengeluarkan cost yang tidak sedikit.
+Yang menjadi concern dari prototype ini adalah untuk mendeteksi karyawan terutama yg memiliki performance bagus maupun yg high potential tetapi tidak puas dan cenderung ingin keluar dari perusahaan. Diharapkan dengan dapatnya deteksi dini, karyawan tersebut dapat ditangani sehingga tidak sampai keluar dari perusahaan.
+<br>
+<hr>
+
+## ML Detection Prototype
+
+### Dataset
+Dataset yang digunakan berasal dari kaggle : https://www.kaggle.com/dredlaw/predict-employment-termination/data
+
+![Dataset](images/dataset.png)
+
+## Data Description
+- EmployeeID : ID Karyawan (Tetapi Tidak Unique)
+- recorddate_key : Tanggal Data direcord
+- birthdate_key : Tanggal lahir karyawan
+- orighiredate_key : Tanggal Masuk Karyawan
+- terminationdate_key : Tanggal terminate
+- age : Usia
+- length_of_service : Masa Kerja
+- city_name : Nama Kota
+- department_name : Nama Departemen
+- Job_Title : Jabatan Karyawan
+- store_name : Nama Toko
+- gender_short : Jenis Kelamin
+- gender_full : Jenis Kelamin
+- termreason_desc : Alasan berhenti
+- termtype_desc : Jenis termination
+- STATUS_YEAR : Tahun record data
+- STATUS : Status karyawan
+- Business Unit : BU karyawan
+
+## Data Exploration
+Explorasi Dataset
+![Exploration](images/Exploration.png)
+
+## Termination report by Years
+Report by Years
+![Report](images/years.png)
+
+## Feature Engineering
+Data setelah dilakukan feature engineering
+![engineering](images/engineering.png)
+
+## Data Desc (After Feature Engineering)
+1. **Age** : Usia Employee (dalam tahun)
+2. **Length_of_Service** : Masa Kerja (dalam tahun)
+3. **gender_short** : Jenis Kelamin (Female : 0, Male : 1)
+4. **STATUS** : Status Employee (Active : 0, Terminated : 1)
+5. **Business_Unit** : Unit Bisnis berdasarkan Tempat kerja (Head Office : 0, Store : 1)
+6. **Job_Level** : Kategori Level jabatan di perusahaan (Staff : 0, Manager : 1, Board : 2, Executive : 3)
+7. **Dept_Category** : Kategori departemen berdasarkan core (pekerjaan utama), (Business : 0, Customer : 1)
+<hr>
+# Algorithm
+Algoritma Machine Learning yang saya gunakan ada 4 yaitu:
+1. KNN
+2. Random Forest
+3. XGBoost
+4. SVM
+
+## Saya membandingkan hasil Evaluation Metrics dari Algorithm tersebut, Hasilnya adalah :
+
+### KNN
+   ![KNN](images/eva_KNN.png)
+
+### Random Forest Classifier
+   ![RF](images/eva_RF.png)
+
+### XGBoost
+   ![XGB](images/eva_xgb.png)
+
+### SVM
+   ![SVM](images/eva_SVM.png)
+
+<hr>
+# Web Application
+Tampilan dari Web Apps nya adalah sebagai berikut
+
+1. Home <br>
+Tampilan awal dari Applikasi
+   ![Home](images/Home.png)
+
+2. Predict <br>
+Adalah halaman yg digunakan user untuk melakukan input data, untuk selanjutnya dilakukan deteksi
+   ![predict](images/predict.png)
+
+3. Result <br>
+Halaman yg mengeluarkan Hasil dari Deteksi berdasarkan data yg telah diinput
+   ![predict](images/predict.png)
+<hr>
+
+#### Khumaeni
