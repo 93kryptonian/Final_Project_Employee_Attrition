@@ -17,9 +17,9 @@ Yang menjadi concern dari prototype ini adalah untuk mendeteksi karyawan terutam
 ## ML Detection Prototype
 
 ### Dataset
-Dataset yang digunakan berasal dari kaggle : https://www.kaggle.com/dredlaw/predict-employment-termination/data
+Dataset yang digunakan berasal dari kaggle ![Kaggle_Dataset]: (https://www.kaggle.com/dredlaw/predict-employment-termination/data)
 
-![Dataset](images/dataset.png)
+![Dataset](https://github.com/93kryptonian/Final_Project_Employee_Attrition/blob/master/images/dataset.PNG)
 
 ## Data Description
 - EmployeeID : ID Karyawan (Tetapi Tidak Unique)
@@ -43,15 +43,15 @@ Dataset yang digunakan berasal dari kaggle : https://www.kaggle.com/dredlaw/pred
 
 ## Data Exploration
 Explorasi Dataset
-![Exploration](images/Exploration.png)
+![Exploration](https://github.com/93kryptonian/Final_Project_Employee_Attrition/blob/master/images/Exploration.PNG)
 
 ## Termination report by Years
 Report by Years
-![Report](images/years.png)
+![Report](https://github.com/93kryptonian/Final_Project_Employee_Attrition/blob/master/images/years.PNG)
 
 ## Feature Engineering
 Data setelah dilakukan feature engineering
-![engineering](images/engineering.png)
+![engineering](https://github.com/93kryptonian/Final_Project_Employee_Attrition/blob/master/images/engineering.PNG)
 
 ## Data Desc (After Feature Engineering)
 1. **Age** : Usia Employee (dalam tahun)
@@ -72,16 +72,16 @@ Algoritma Machine Learning yang saya gunakan ada 4 yaitu:
 ## Saya membandingkan hasil Evaluation Metrics dari Algorithm tersebut, Hasilnya adalah :
 
 ### KNN
-   ![KNN](images/eva_KNN.png)
+   ![KNN](https://github.com/93kryptonian/Final_Project_Employee_Attrition/blob/master/images/eva_KNN.PNG)
 
 ### Random Forest Classifier
-   ![RF](images/eva_RF.png)
+   ![RF](https://github.com/93kryptonian/Final_Project_Employee_Attrition/blob/master/images/eva_RF.PNG)
 
 ### XGBoost
-   ![XGB](images/eva_xgb.png)
+   ![XGB](https://github.com/93kryptonian/Final_Project_Employee_Attrition/blob/master/images/eva_XGB.PNG)
 
 ### SVM
-   ![SVM](images/eva_SVM.png)
+   ![SVM](https://github.com/93kryptonian/Final_Project_Employee_Attrition/blob/master/images/eva_SVM.PNG)
 
 <hr>
 # Web Application
@@ -89,15 +89,15 @@ Tampilan dari Web Apps nya adalah sebagai berikut
 
 1. Home <br>
 Tampilan awal dari Applikasi
-   ![Home](images/Home.png)
+   ![Home](https://github.com/93kryptonian/Final_Project_Employee_Attrition/blob/master/images/Home.PNG)
 
 2. Predict <br>
 Adalah halaman yg digunakan user untuk melakukan input data, untuk selanjutnya dilakukan deteksi
-   ![predict](images/predict.png)
+   ![predict](https://github.com/93kryptonian/Final_Project_Employee_Attrition/blob/master/images/predict.PNG)
 
 3. Result <br>
 Halaman yg mengeluarkan Hasil dari Deteksi berdasarkan data yg telah diinput
-   ![predict](images/predict.png)
+   ![predict](https://github.com/93kryptonian/Final_Project_Employee_Attrition/blob/master/images/result.PNG)
 <hr>
 
-#### Khumaeni
+#### Khumaeni - 2020
