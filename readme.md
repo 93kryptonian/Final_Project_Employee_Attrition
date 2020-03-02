@@ -63,14 +63,14 @@ Data setelah dilakukan feature engineering
 6. **Job_Level** : Kategori Level jabatan di perusahaan (Staff : 0, Manager : 1, Board : 2, Executive : 3)
 7. **Dept_Category** : Kategori departemen berdasarkan core (pekerjaan utama), (Business : 0, Customer : 1)
 <hr>
-# Algorithm 
+## Algorithm 
 <br>
 Algoritma Machine Learning yang saya gunakan ada 4 yaitu:
 <br>
-1. KNN
-2. Random Forest
-3. XGBoost
-4. SVM
+1. KNN <br>
+2. Random Forest <br>
+3. XGBoost <br>
+4. SVM <br>
 
 ## Saya membandingkan hasil Evaluation Metrics dari Algorithm tersebut, Hasilnya adalah :
 
@@ -87,7 +87,7 @@ Algoritma Machine Learning yang saya gunakan ada 4 yaitu:
    ![SVM](https://github.com/93kryptonian/Final_Project_Employee_Attrition/blob/master/images/eva_SVM.PNG)
 
 <hr>
-## Web Application
+### Web Application
 Tampilan dari Web Apps nya adalah sebagai berikut
 
 1. Home <br>
