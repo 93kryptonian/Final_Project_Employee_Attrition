@@ -17,7 +17,8 @@ Yang menjadi concern dari prototype ini adalah untuk mendeteksi karyawan terutam
 ## ML Detection Prototype
 
 ### Dataset
-Dataset yang digunakan berasal dari kaggle ![Kaggle_Dataset]:(https://www.kaggle.com/dredlaw/predict-employment-termination/data)
+Dataset yang digunakan berasal dari kaggle 
+![Kaggle_Dataset](https://www.kaggle.com/dredlaw/predict-employment-termination/data)
 
 ![Dataset](https://github.com/93kryptonian/Final_Project_Employee_Attrition/blob/master/images/dataset.PNG)
 
