@@ -17,7 +17,7 @@ Yang menjadi concern dari prototype ini adalah untuk mendeteksi karyawan terutam
 ## ML Detection Prototype
 
 ### Dataset
-Dataset yang digunakan berasal dari kaggle ![Kaggle_Dataset]: (https://www.kaggle.com/dredlaw/predict-employment-termination/data)
+Dataset yang digunakan berasal dari kaggle ![Kaggle_Dataset]:(https://www.kaggle.com/dredlaw/predict-employment-termination/data)
 
 ![Dataset](https://github.com/93kryptonian/Final_Project_Employee_Attrition/blob/master/images/dataset.PNG)
 
@@ -62,8 +62,10 @@ Data setelah dilakukan feature engineering
 6. **Job_Level** : Kategori Level jabatan di perusahaan (Staff : 0, Manager : 1, Board : 2, Executive : 3)
 7. **Dept_Category** : Kategori departemen berdasarkan core (pekerjaan utama), (Business : 0, Customer : 1)
 <hr>
-# Algorithm
+# Algorithm 
+<br>
 Algoritma Machine Learning yang saya gunakan ada 4 yaitu:
+<br>
 1. KNN
 2. Random Forest
 3. XGBoost
