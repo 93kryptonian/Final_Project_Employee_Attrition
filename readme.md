@@ -64,6 +64,7 @@ Data setelah dilakukan feature engineering
 7. **Dept_Category** : Kategori departemen berdasarkan core (pekerjaan utama), (Business : 0, Customer : 1)
 <hr>
 ## Algorithm 
+
 <br>
 Algoritma Machine Learning yang saya gunakan ada 4 yaitu:
 <br>
@@ -88,6 +89,8 @@ Algoritma Machine Learning yang saya gunakan ada 4 yaitu:
 
 <hr>
 ### Web Application
+<br>
+
 Tampilan dari Web Apps nya adalah sebagai berikut
 
 1. Home <br>
