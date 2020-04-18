@@ -1,5 +1,3 @@
-# Final Project JCDS 07
-
 # Employee Attrition Tendency Detection
 
 #### By: Khumaeni
