@@ -86,7 +86,9 @@ Algoritma Machine Learning yang saya gunakan ada 4 yaitu:
    ![SVM](https://github.com/93kryptonian/Final_Project_Employee_Attrition/blob/master/images/eva_SVM.PNG)
 
 <hr>
+
 ### Web Application
+
 <br>
 
 Tampilan dari Web Apps nya adalah sebagai berikut
